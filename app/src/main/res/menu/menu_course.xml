@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:background="?android:attr/selectableItemBackground">
+    <item android:id="@+id/menu_contents"
+        android:title="目录"
+		android:icon="@drawable/course_content"
+		app:showAsAction="ifRoom|withText"/>
+	<item android:id="@+id/menu_settings"
+		android:title="设置"
+		android:icon="@drawable/ic_settings_black_24dp"
+		app:showAsAction="never"/>
+	<item android:id="@+id/menu_help"
+		android:title="帮助"
+		android:icon="@drawable/ic_help_black_24dp"
+		app:showAsAction="never"/>
+	<item android:id="@+id/menu_specification"
+		android:title="说明"
+		android:icon="@drawable/ic_notifications_black_24dp"
+		app:showAsAction="never"/>
+</menu>

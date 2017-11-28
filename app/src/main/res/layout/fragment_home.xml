@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="行业资讯"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_info1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:clickable="true"
+            android:text="行业资讯"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textview_info2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:text="行业资讯"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textview_info3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:text="行业资讯"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textview_info4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:text="行业资讯"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#888888" />
+
+    <TextView
+        android:id="@+id/textview_exam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:text="考试动态"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textview_exam_date"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="12dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/background_selector"
+                android:text="@string/exam_date"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textview_exam_condition"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="12dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/background_selector"
+                android:text="@string/exam_condition"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textview_exam_print"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="12dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/background_selector"
+                android:text="@string/exam_print"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textview_exam_time"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="12dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/background_selector"
+                android:text="@string/exam_time"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textview_exam_inquiry"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="12dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/background_selector"
+                android:text="@string/exam_inquiry"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textview_exam_receive"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="12dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/background_selector"
+                android:text="@string/exam_receive"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

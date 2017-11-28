@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CPV</string>
+    <string name="help">
+&#160;赵客缦胡缨，吴钩霜雪明。\n
+银鞍照白马，飒沓如流星。\n
+十步杀一人，千里不留行。\n
+事了拂衣去，深藏身与名。\n
+闲过信陵饮，脱剑膝前横。\n
+将炙啖朱亥，持觞劝侯嬴。\n
+三杯吐然诺，五岳倒为轻。\n
+眼花耳热后，意气素霓生。\n
+救赵挥金锤，邯郸先震惊。\n
+千秋二壮士，烜赫大梁城。\n
+纵死侠骨香，不惭世上英。\n
+谁能书阁下，白首太玄经。</string>
+    <string name="exam_date"><a href='http://www.exam8.com/kuaiji/pinggu/baoming/201611/3850285.html'>报名时间：5月中旬开始</a></string>
+    <string name="exam_condition"><a href='http://www.exam8.com/kuaiji/pinggu/zhengshu/'>报名条件：详见估协网站</a></string>
+    <string name="exam_print"><a href='http://www.exam8.com/kuaiji/pinggu/zhengshu/'>考证打印：考前半个月</a></string>
+    <string name="exam_time"><a href='http://www.exam8.com/kuaiji/pinggu/zhinan/201612/3859006.html'>考试时间：11月4、5日</a></string>
+    <string name="exam_inquiry"><a href='http://www.exam8.com/kuaiji/pinggu/chengji/'>成绩查询：考后两个月</a></string>
+    <string name="exam_receive"><a href='http://www.exam8.com/kuaiji/pinggu/zhengshu/'>证书领取：次年的3-5月</a></string>
+</resources>
